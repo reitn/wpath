@@ -40,9 +40,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="UIAutomationClient" />
-    <Reference Include="UIAutomationProvider" />
-    <Reference Include="UIAutomationTypes" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +50,11 @@
     <Compile Include="WPathAttribute.cs" />
     <Compile Include="WPathFinder.cs" />
     <Compile Include="UIProperty.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="UIAComWrapper">
+      <Version>1.1.0.14</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
