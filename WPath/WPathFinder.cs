@@ -98,6 +98,12 @@ namespace WPath
         private AutomationElement FindNode(AutomationElement currentElement, TreeScope scope, string nodePath)
         {
             UIProperty uip = null;
+            if(nodePath.Equals(".."))
+            {
+                TreeWalker treeWalker = TreeWalker.ControlViewWalker;
+                return treeWalker.GetParent(currentElement);
+            }
+
             var condition = ConvertFromPath(nodePath, out uip);
             if (uip == null)
             {
