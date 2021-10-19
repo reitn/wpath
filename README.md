@@ -1,15 +1,9 @@
 [![NuGet](https://img.shields.io/nuget/v/WPath.svg)](https://www.nuget.org/packages/WPath)
 
 # WPath Introduction
+Origin from : https://github.com/tobyqin/wpath
 WPath is a library to select Windows UI automation element like XPath. The WPath looks like [XPath][1] which was wildly using to select xml elements, but it is not exactly equal to [XPath][1],  it is being used to locate [Microsoft UIAutomation][2] elements. Some special rules list below.
 
-### Installation
-
-You can clone the repository and compile source code by yourself. Or just install via nuget packages.
-
-```
-PM> Install-Package WPath
-```
 
 ### Get Started
 
@@ -84,7 +78,6 @@ Assert.AreEqual(ControlType.Text, e.Current.ControlType);
   - @name = @Name
   - /edit = /Edit
 - Welcome to extend the feature by sending pull requests.
-- Parent element locator `../` is **not** support yet.
 - For more usage please refer to [unit test examples][4].
 
 [1]: http://www.w3schools.com/xsl/xpath_intro.asp
