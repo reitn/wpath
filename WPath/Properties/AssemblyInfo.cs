@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WPath")]
+[assembly: AssemblyTitle("WPath UIAComWrapper")]
 [assembly: AssemblyDescription("WPath is a library to select Windows UI automation element like XPath.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("https://github.com/tobyqin/wpath")]
+[assembly: AssemblyCompany("https://github.com/reitn/wpath")]
 [assembly: AssemblyProduct("WPath")]
-[assembly: AssemblyCopyright("Copyright Reserved by Toby Qin©  2016")]
+[assembly: AssemblyCopyright("Copyright Reserved by reitn©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

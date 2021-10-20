@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WPathUIAComWrapper</id>
+    <version>1.0.0</version>
+    <title>WPath for UIAComWrapper</title>
+    <authors>reitn</authors>
+    <owners>reitn</owners>
+    <licenseUrl>https://github.com/reitn/wpath/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/reitn/wpath</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/reitn/wpath/master/wpath.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WPath is a C# library to select Windows UI automation elements like XPath. And it is originally from https://www.nuget.org/packages/WPath/ and converted to use with UIComWrapper(https://www.nuget.org/packages/UIAComWrapper/)</description>
+    <releaseNotes>Release to nuget.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>xpath uiautomation uia wpath uiacomwrapper</tags>
+  </metadata>
+</package>
